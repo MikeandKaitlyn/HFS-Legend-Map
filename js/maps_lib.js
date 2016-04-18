@@ -234,15 +234,21 @@ var MapsLib = {
       MapsLib.searchRadiusCircle.setMap(null);
   },
 
-  setDemographicsLabels: function(left, middle, right) {
-    $('#legend-left').fadeOut('fast', function(){
-      $("#legend-left").html(left);
+  setDemographicsLabels: function(one, two, three, four, five) {
+    $('#legend-one').fadeOut('fast', function(){
+      $("#legend-one").html(one);
     }).fadeIn('fast');
-    $('#legend-middle').fadeOut('fast', function(){
-      $("#legend-middle").html(middle);
+    $('#legend-two').fadeOut('fast', function(){
+      $("#legend-two").html(two);
     }).fadeIn('fast');
-    $('#legend-right').fadeOut('fast', function(){
-      $("#legend-right").html(right);
+    $('#legend-three').fadeOut('fast', function(){
+      $("#legend-three").html(three);
+    }).fadeIn('fast');
+    $('#legend-four').fadeOut('fast', function(){
+      $("#legend-four").html(four);
+    }).fadeIn('fast');
+    $('#legend-five').fadeOut('fast', function(){
+      $("#legend-five").html(five);
     }).fadeIn('fast');
   },
 
