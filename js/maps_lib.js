@@ -124,10 +124,10 @@ var MapsLib = {
     }
     if ($("#rbPolygon2").is(':checked')) {
       MapsLib.polygon2.setMap(map);
-      MapsLib.setDemographicsLabels("2&ndash;8%", "8&ndash;14%", "14&ndash;21%"); //MODIFY to match 3 buckets in GFT
+      MapsLib.setDemographicsLabels("$15&ndash;20k", "$20&ndash;30k", "$30&ndash;45k", "$45&ndash;65k", "$65&ndash;215k"); //MODIFY to match 3 buckets in GFT
     }
     if ($("#rbPolygonOff").is(':checked')) {   //the Off statement does not contain a setMap
-      MapsLib.setDemographicsLabels("&ndash;", "&ndash;", "&ndash;");
+      MapsLib.setDemographicsLabels("&ndash;", "&ndash;", "&ndash;", "&ndash;", "&ndash;");
     }
 
     var address = $("#search_address").val();
